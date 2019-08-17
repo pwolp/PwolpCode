@@ -1,0 +1,154 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8">
+    <title>HTML code</title>
+</head>
+
+<body>
+    <h1>表格</h1>
+    <table border="1">
+        <tr>
+            <th></th>
+            <th>表头</th>
+            <th>表头</th>
+        </tr>
+        <tr>
+            <th>表头</th>
+            <td>表格从 table 标签开始</td>
+            <td>每一行从 tr 标签开始</td>
+        </tr>
+        <tr>
+            <th>表头</th>
+            <td>每一列从 td 标签开始</td>
+            <td>表头从 td 标签开始</td>
+        </tr>
+    </table>
+
+    <hr>
+
+    <table>
+        <tr>
+            <td align="center" width="525"><h2>课程表</h2></td>
+        </tr>
+        <tr>
+            <td align="right" ><h4>2019-08-16</h4></td>
+        </tr>
+    </table>
+    <table border="1" cellspacing="0" style="background-color: aqua">
+        <tr style="background-color:darkcyan">
+            <th colspan="2" width="150">时间</th>
+            <th width="75">周一</th>
+            <th width="75">周二</th>
+            <th width="75">周三</th>
+            <th width="75">周四</th>
+            <th width="75">周五</th>
+        </tr>
+        <tr >
+            <th rowspan="2">上午</th>
+            <th>8:00-10:00</th>
+            <th>数学</th>
+            <th>数学</th>
+            <th>数学</th>
+            <th>数学</th>
+            <th>数学</th>
+        </tr>
+        <tr>
+            <th>10:00-12:00</th>
+            <th>数学</th>
+            <th>数学</th>
+            <th>数学</th>
+            <th>数学</th>
+            <th>数学</th>
+        </tr>
+        <tr style="background-color: darkorange">
+            <th align="center" colspan="7">休息</th>
+        </tr>
+        <tr>
+            <th rowspan="2">下午</th>
+            <th>14:00-16:00</th>
+            <th>数学</th>
+            <th>数学</th>
+            <th>数学</th>
+            <th>数学</th>
+            <th>数学</th>
+        </tr>
+        <tr>
+            <th>16:00-18:00</th>
+            <th>数学</th>
+            <th>数学</th>
+            <th>数学</th>
+            <th>数学</th>
+            <th>数学</th>
+        </tr>
+    </table>
+
+    <hr>
+
+    <h3 style="text-align: center">有序列表</h3>
+    <ol>
+        <li>有序列表从 ol 标签开始</li>
+        <li>每一项以 li 标签开始</li>
+        <li>可以通过 type 属性修改列表类型</li>
+        <li>没有指定 type 属性</li>
+    </ol>
+    <ol type="A"> 
+        <li>有序列表从 ol 标签开始</li>
+        <li>每一项以 li 标签开始</li>
+        <li>可以通过 type 属性修改列表类型</li>
+        <li>指定 type 属性 A </li>
+    </ol>
+    <ol type="I"> 
+        <li>有序列表从 ol 标签开始</li>
+        <li>每一项以 li 标签开始</li>
+        <li>可以通过 type 属性修改列表类型</li>
+        <li>指定 type 属性 I </li>
+    </ol>
+    
+    <h3 style="text-align: center">无序列表</h3>
+    <ul>
+        <li>无序列表从 ul 标签开始</li>
+        <li>每一项以 li 标签开始</li>
+        <li>可以通过 list-style-type 属性修改列表类型</li>
+        <li>没有指定 list-style-type 属性</li>
+    </ul>
+    <ul style="list-style-type: circle">
+        <li>无序列表从 ul 标签开始</li>
+        <li>每一项以 li 标签开始</li>
+        <li>可以通过 style="list-style-type: " 属性修改列表类型</li>
+        <li>指定 style="list-style-type: circle" 属性</li>
+    </ul>
+    <ul style="list-style-type: square">
+        <li>无序列表从 ul 标签开始</li>
+        <li>每一项以 li 标签开始</li>
+        <li>可以通过 style="list-style-type: " 属性修改列表类型</li>
+        <li>指定 style="list-style-type: square" 属性</li>
+    </ul>
+    <h3 style="text-align: left">菜单</h3>
+    <ul>
+        <li>主食
+            <ol>
+                <li>牛肉面</li>
+                <li>蛋炒饭</li>
+                <li>饺子</li>
+            </ol>
+        </li>
+        <li>饮品
+            <ol>
+                <li>啤酒</li>
+                <li>果汁</li>
+                <li>牛奶</li>
+            </ol>
+        </li>
+    </ul>
+    <h3>自定义列表</h3>
+    <dl>
+        <dt>自定义列表以 dl 标签开始</dt>
+        <dd>列表的项以 dt 开始</dd>
+        <dd>列表的项的内容以 dd 开始</dd>
+        <dt>自定义列表以 dl 标签开始</dt>
+        <dd>列表的项以 dt 开始</dd>
+        <dd>列表的项的内容以 dd 开始</dd>
+    </dl>
+</body>
+</html>
