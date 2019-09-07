@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8">
+    <title>CSS ID 和 Class 选择器</title>
+    <style>
+    h1{
+        background-color: burlywood;
+        color: darkgreen;
+    }
+    p{
+        color: aqua;
+        background-color: black;
+    }
+    #para1{
+        color:blue;
+    }
+    .center{
+        text-align: center;
+    }
+    p.center{
+        text-align: right;
+    }
+    </style>
+</head>
+<body>
+    <h1>标题</h1>
+    <h1 class="center">居中的标题</h1>
+    <h1 id="para1">有ID的标题</h1>
+    <p>段落</p>
+    <p class="center">居中的段落</p>
+    <p id="para1">带有ID的段落</p>
+    <p id="para1" class="center">有ID和Class的段落</p>
+</body>
+</html>
