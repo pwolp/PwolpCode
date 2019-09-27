@@ -1,12 +1,10 @@
 
 ***************************
-开始学习 HTML
+
+开始学习 WEB 相关
 
 ***************************
-使用 git 管理
-Git is a distributed version control system.
-Git is a free software.
+
+使用 github 管理代码
+
 ***************************
-
-成功推送到 GitHub
-
