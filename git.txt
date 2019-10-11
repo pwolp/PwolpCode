@@ -50,7 +50,8 @@ Git 的使用
 	
 3. 远程仓库，连接 GitHub
 	# 已经连接到 GitHub 帐号，在 GitHub 上创建仓库
-	$ git remote add origin git@github.com:pwolp/web.git
+	$ git remote add origin git@github.com:pwolp/PwolpCode.git
+	# 把文件推送到远程仓库中
 	$ git push -u origin master
 	
 	

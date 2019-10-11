@@ -1,8 +1,6 @@
 
-a = 'abcdefcg'
-b = 'fc'
+a = [1, 2, 3, 4, 0, 0, 0]
+b = [2, 4, 5]
 
-if b in a:
-    print(a.index(b))
-else:
-    print('hello')
+a[0] = 5
+print(a)
