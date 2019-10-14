@@ -1,6 +1,16 @@
 
-a = [1, 2, 3, 4, 0, 0, 0]
-b = [2, 4, 5]
 
-a[0] = 5
-print(a)
+a = [1, 3, 5, 6]
+b = [2, 3, 4, 6]
+
+ab = a + b
+ab = sorted(ab)
+print(ab)
+l = len(ab)
+
+if l % 2 == 0:
+    print((ab[l//2 - 1] + ab[l//2]) / 2)
+else:
+    print(ab[l//2])
+
+
