@@ -13,6 +13,22 @@
 
 class Solution:
     def addTwoNumbers(self, l1: ListNode, l2: ListNode) -> ListNode:
-        return 
+        j = 0
+        root = n = ListNode(0)
+        while l1 or l2 or j:
+            x1 = 0
+            x2 = 0
+            if l1:
+                x1 = l1.val
+                l1 = l1.next
+            if l2:
+                x2 = l2.val
+                l2 = l2.next
+            j, val = divmod(x1+x2+j, 10)
+            n.next = ListNode(val)
+            n = n.next
+        return root.next
+    
+
 # @lc code=end
 
